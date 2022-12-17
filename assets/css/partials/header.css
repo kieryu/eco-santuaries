@@ -1,0 +1,42 @@
+
+.site-header nav a {
+  font-size: 21px;
+  padding-bottom: 25px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.site-header nav > a:hover::after,
+.site-header nav > a.active:after {
+  width: 100%;
+}
+
+.site-header nav a::after {
+  content: "";
+  height: 4px;
+  width: 0;
+  background-color: #EBE4CF;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.site-header nav a:hover,
+.site-header nav a.active {
+  color: #EBE4CF;
+}
+
+.site-header .site-title {
+  font-size: 27px;
+}

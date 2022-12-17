@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'CeliasBold';
+  src: local('Celias Bold'), local('Celias-Bold'),
+      url('Celias-Bold.woff2') format('woff2'),
+      url('Celias-Bold.woff') format('woff'),
+      url('Celias-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CeliasMedium';
+  src: local('Celias Medium'), local('Celias-Medium'),
+      url('Celias-Medium.woff2') format('woff2'),
+      url('Celias-Medium.woff') format('woff'),
+      url('Celias-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CormorantMedium';
+  src: local('Cormorant Medium'), local('Cormorant-Medium'),
+      url('Cormorant-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: local('Roboto Regular'), local('Roboto-Regular'),
+      url('Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MontserratMedium';
+  src: local('Montserrat Medium'), local('Montserrat-Medium'),
+      url('Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MontserratSemiBold';
+  src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+      url('Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}

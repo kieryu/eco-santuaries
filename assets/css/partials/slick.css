@@ -1,0 +1,39 @@
+.slick-dots {
+  bottom: -60px;
+}
+
+.slick-dots li {
+  margin: 0 10px;
+}
+
+.slick-dots li button {
+  width: 25px;
+  height: 25px;
+}
+
+.slick-dots li button:before {
+  color: #FFF;
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  opacity: 1;
+}
+
+.testimonials-wrapper.slick-active {
+  opacity: 1;
+}
+
+.custom-slick-arrow {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  z-index: 1;
+}
+
+.custom-slick-arrow.custom-slick-next {
+  right: 30px;
+}
+
+.custom-slick-arrow.custom-slick-prev {
+  right: 100px;
+}

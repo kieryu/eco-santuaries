@@ -1,0 +1,180 @@
+@import "../fonts/style.css";
+@import "./partials/header.css";
+@import "./partials/banner.css";
+@import "./partials/slick.css";
+
+.inner {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 52px;
+}
+
+.inner-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 1.5rem;
+}
+
+.section-subtitle {
+  font-size: 22px;
+}
+
+.section-title {
+  font-size: 70px;
+}
+
+.bg-section-cover {
+  background-image: url("../images/BGee.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.floating-box {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  z-index: 1;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #41423D;
+  outline: 1px solid #EBE4CF;
+}
+
+.hamburger {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.hamburger:hover {
+  opacity: 1 !important;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+  background-color: #EBE4CF !important;
+  opacity: 1 !important;
+  width: 30px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1440px) {
+  .section-subtitle {
+    font-size: 20px;
+  }
+  .section-title {
+    font-size: 50px;
+  }
+  .text-\[23px\] {
+    font-size: 16px !important;
+  }
+  .text-\[32px\] {
+    font-size: 23px !important;
+  }
+  .text-\[17px\] {
+    font-size: 16px !important;
+  }
+  .site-header .site-title {
+    font-size: 20px;
+  }
+  .site-header nav a {
+    font-size: 18px;
+  }
+  .text-\[30px\] {
+    font-size: 26px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .ecosanc-experience-section .exp-wrapper {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-title {
+    text-align: center;
+    line-height: 60px;
+  }
+  .hamburger {
+    display: block;
+    z-index: 20;
+    box-shadow: none !important;
+    outline: 0 !important;
+    background-color: none !important;
+    padding: 0;
+    height: 24px;
+    width: 30px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .site-header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #41423D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: -100%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    padding-bottom: 30%;
+  }
+  .site-header nav a {
+    padding-bottom: 5px;
+    margin-bottom: 24px;
+  }
+  .site-header nav.mobile-active {
+    padding-bottom: 5px;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .section-title {
+    max-width: 320px;
+    text-align: center;
+  }
+  .text-\[23px\] {
+    font-size: 16px !important;
+    line-height: 30px;
+  }
+  .ecosanc-experience-section .exp-wrapper {
+    flex-basis: 100%;
+  }
+  .ecosanc-experience-section .inner,
+  .our-story-section-2 .inner,
+  .eco-sanctuaries-section .inner,
+  .environmental-preservation-section .inner {
+    padding-bottom: 0;
+  }
+  .wellness-section .inner {
+    padding: 0;
+  }
+  .community-section .inner,
+  .local-empowerment-section .inner {
+    padding-top: 0;
+  }
+  .site-header.inner {
+    padding: 20px;
+  }
+} 

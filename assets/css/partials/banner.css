@@ -1,0 +1,13 @@
+.banner-section {
+  position: relative;
+}
+
+.banner-section .banner-options {
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
