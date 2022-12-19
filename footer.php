@@ -6,21 +6,26 @@
             <img src="assets/images/logo.svg" class="w-28 h-auto mb-10 mx-auto xl:mx-0">
           </div>
           <div class="getInTouch basis-full xl:basis-5/12">
-            <p class="text-[22px] text-white font-celiasMedium">Get In Touch</p>
-            <p class="text-[19px] text-white font-montserratMedium my-8">Eco Sanctuaries, Nacpan Beach, <br />El Nido,
-              Palawan, Philippines</p>
-            <p class="text-[19px] text-white font-montserratMedium">ecosanctuarieselnido@gmail.com <br />+ 123 456 7890
+            <p class="text-[18px] 2xl:text-[22px] text-white font-celiasMedium">Get In Touch</p>
+            <p class="text-[16px] 2xl:text-[19px] text-white font-montserratMedium my-8">Eco Sanctuaries, Nacpan Beach,
+              <br />El Nido,
+              Palawan, Philippines
+            </p>
+            <p class="text-[16px] 2xl:text-[19px] text-white font-montserratMedium">ecosanctuarieselnido@gmail.com
+              <br />+ 123 456 7890
             </p>
           </div>
           <div class="footer-menu basis-full xl:basis-4/12 flex flex-col mt-6 xl:mt-0">
-            <a href="our-story.php" class="text-white text-[22px] font-celiasMedium hover:text-[#EBE4CF]">Our Story</a>
+            <a href="our-story.php"
+              class="text-white text-[18px] 2xl:text-[22px] font-celiasMedium hover:text-[#EBE4CF]">Our Story</a>
             <a href="accomodation.php"
-              class="text-white text-[22px] font-celiasMedium hover:text-[#EBE4CF] mt-8">Accomodation</a>
+              class="text-white text-[18px] 2xl:text-[22px] font-celiasMedium hover:text-[#EBE4CF] mt-8">Accomodation</a>
             <a href="experiences.php"
-              class="text-white text-[22px] font-celiasMedium hover:text-[#EBE4CF] mt-8">Experiences</a>
+              class="text-white text-[18px] 2xl:text-[22px] font-celiasMedium hover:text-[#EBE4CF] mt-8">Experiences</a>
             <a href="advocacies.php"
-              class="text-white text-[22px] font-celiasMedium hover:text-[#EBE4CF] mt-8">Advocacies</a>
-            <a href="#" class="text-white text-[22px] font-celiasMedium hover:text-[#EBE4CF] mt-8">Contact Us</a>
+              class="text-white text-[18px] 2xl:text-[22px] font-celiasMedium hover:text-[#EBE4CF] mt-8">Advocacies</a>
+            <a href="#"
+              class="text-white text-[18px] 2xl:text-[22px] font-celiasMedium hover:text-[#EBE4CF] mt-8">Contact Us</a>
           </div>
         </div>
         <div class="flex flex-col basis-full xl:basis-5/12">
@@ -40,11 +45,16 @@
           </div>
           <div class="text-center xl:text-right mt-auto">
             <div class="privacy-policy">
-              <a href="#" class="text-[19px] text-white font-montserratMedium hover:text-[#EBE4CF]">Privacy Policy</a>
-              <span class="text-[19px] text-white font-montserratMedium mx-4 inline-block">|</span>
-              <a href="#" class="text-[19px] text-white font-montserratMedium hover:text-[#EBE4CF]">Terms of Use</a>
+              <a href="#"
+                class="text-[16px] 2xl:text-[19px] text-white font-montserratMedium hover:text-[#EBE4CF]">Privacy
+                Policy</a>
+              <span class="text-[16px] 2xl:text-[19px] text-white font-montserratMedium mx-4 inline-block">|</span>
+              <a href="#"
+                class="text-[16px] 2xl:text-[19px] text-white font-montserratMedium hover:text-[#EBE4CF]">Terms
+                of Use</a>
             </div>
-            <p class="text-[19px] text-white font-montserratMedium mt-6 inline-block">Copyright © 2022 Palawan Resort
+            <p class="text-[16px] 2xl:text-[19px] text-white font-montserratMedium mt-6 inline-block">Copyright © 2022
+              Palawan Resort
               Inc. All rights reserved.</p>
           </div>
         </div>
